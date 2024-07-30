@@ -1,0 +1,18 @@
+server:
+  port: 5674
+
+spring:
+  application:
+    name: Job-Application
+  datasource: 
+    url: jdbc:mysql://localhost:3306/job_app
+    username: root
+    password: Tiger2143@+%
+  jpa:
+    show_sql: true
+    hibernate: 
+      ddl-auto: create
+
+   
+  
+      
